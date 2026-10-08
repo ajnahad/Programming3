@@ -5,7 +5,7 @@ int main(){
     int a, b;
     int br_sab = 0;
     int proizvod_petlja = 0;
-    std::cout << "Unesi dva nenegativna broja: "; std::cin >> a >> b;
+    std::cout << "Unesi dva nenegativna broja: " << std::endl; std::cin >> a >> b;
     a = abs(a);
     b = abs(b);
 
